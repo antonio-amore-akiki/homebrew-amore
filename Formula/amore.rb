@@ -10,12 +10,12 @@ class Amore < Formula
   on_macos do
     on_intel do
       url "https://github.com/antonio-amore-akiki/amore/releases/download/v1.0.2/amore-1.0.2-macos-x86_64.tar.gz"
-      sha256 "0875d71e9880ceda8bdc0b59d00c976c0f04c98c1df88a3a357c19f88ca92723"
+      sha256 "6f7b644edc1753efa800ad5a86032239c66eae5df034b6d1f080992863cd1ee8"
     end
 
     on_arm do
       url "https://github.com/antonio-amore-akiki/amore/releases/download/v1.0.2/amore-1.0.2-macos-aarch64.tar.gz"
-      sha256 "198e17227e72175421d1b33c7296b6260d51e5d91510026204c2670fb3c3e988"
+      sha256 "832fef655c438f9af9db00183e77975893cb24b54cb643e1fa6959b65bc1defa"
     end
   end
 
