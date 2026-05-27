@@ -10,18 +10,18 @@ class Amore < Formula
   on_macos do
     on_intel do
       url "https://github.com/antonio-amore-akiki/amore/releases/download/v1.0.0/amore-1.0.0-macos-x86_64.tar.gz"
-      sha256 "ab4814b55b9ae14a3d857236051ed807f2a5809595f7475ab67790525d39814a"
+      sha256 "1932dfd93a4a215ba2e6232a237e473cda813f1e9b4fc139d726d3f04609931b"
     end
 
     on_arm do
       url "https://github.com/antonio-amore-akiki/amore/releases/download/v1.0.0/amore-1.0.0-macos-aarch64.tar.gz"
-      sha256 "43e04b80f922c882f3f18535f57485ec41c3eed5767909992d8d6445361e8625"
+      sha256 "087aedc6f16af6386f249a07944d9998440d319b23e0e76010020c708561b5b0"
     end
   end
 
   on_linux do
     url "https://github.com/antonio-amore-akiki/amore/releases/download/v1.0.0/amore-gui-x86_64.AppImage"
-    sha256 "3e433ae1bf09dfd6e35efef5400bf3e119eb73243d8cda589e1c739e4ce70597"
+    sha256 "6d0b3f3e13b8a566bd214c1c3cfee09098ba990b01a9fc43b1c62cbec248cc64"
   end
 
   depends_on "qdrant" => :recommended
