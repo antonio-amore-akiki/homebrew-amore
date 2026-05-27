@@ -1,7 +1,7 @@
 class Amore < Formula
   desc "Local-first MCP memory backbone for AI coding assistants — Apache-2.0, Rust, zero-cloud"
   homepage "https://github.com/antonio-amore-akiki/amore"
-  version "1.0.2"
+  version "1.0.0"
   license "Apache-2.0"
 
   # macOS binaries built by .github/workflows/release.yml macos-build job on free
@@ -9,18 +9,18 @@ class Amore < Formula
   # the workflow output: amore-<version>-macos-<arch_short>.tar.gz.
   on_macos do
     on_intel do
-      url "https://github.com/antonio-amore-akiki/amore/releases/download/v1.0.2/amore-1.0.2-macos-x86_64.tar.gz"
-      sha256 "6f7b644edc1753efa800ad5a86032239c66eae5df034b6d1f080992863cd1ee8"
+      url "https://github.com/antonio-amore-akiki/amore/releases/download/v1.0.0/amore-1.0.0-macos-x86_64.tar.gz"
+      sha256 "41335315f578652f547326d06a88333b78f675e0fd6a9342b46824fe65b1d0a5"
     end
 
     on_arm do
-      url "https://github.com/antonio-amore-akiki/amore/releases/download/v1.0.2/amore-1.0.2-macos-aarch64.tar.gz"
-      sha256 "832fef655c438f9af9db00183e77975893cb24b54cb643e1fa6959b65bc1defa"
+      url "https://github.com/antonio-amore-akiki/amore/releases/download/v1.0.0/amore-1.0.0-macos-aarch64.tar.gz"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
   end
 
   on_linux do
-    url "https://github.com/antonio-amore-akiki/amore/releases/download/v1.0.2/amore-gui-x86_64.AppImage"
+    url "https://github.com/antonio-amore-akiki/amore/releases/download/v1.0.0/amore-gui-x86_64.AppImage"
     sha256 "3e433ae1bf09dfd6e35efef5400bf3e119eb73243d8cda589e1c739e4ce70597"
   end
 
